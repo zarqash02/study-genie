@@ -82,10 +82,10 @@ study-genie/
 ### 1. Clone and install
 
 ```bash
-git clone <your-repo> study-genie
+git clone https://github.com/zarqash02/study-genie study-genie
 cd study-genie
 python -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+.venv\Scripts\activate          # MacOS: source .venv/bin/activate
 pip install pymupdf --only-binary :all:
 pip install numpy --only-binary :all:
 pip install pydantic-core pillow tokenizers --prefer-binary
