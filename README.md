@@ -89,7 +89,7 @@ python -m venv .venv
 pip install pymupdf --only-binary :all:
 pip install numpy --only-binary :all:
 pip install pydantic-core pillow tokenizers --prefer-binary
-pip install -r requirements.txt
+.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 ### 2. Get API keys
