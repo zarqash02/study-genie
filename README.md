@@ -84,12 +84,11 @@ study-genie/
 ```bash
 git clone https://github.com/zarqash02/study-genie study-genie
 cd study-genie
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 python -m venv .venv
 .venv\Scripts\activate          # MacOS: source .venv/bin/activate
-pip install pymupdf --only-binary :all:
-pip install numpy --only-binary :all:
-pip install pydantic-core pillow tokenizers --prefer-binary
 .venv\Scripts\python.exe -m pip install -r requirements.txt
+# .venv\Scripts\python.exe -m pip install --no-index --find-links=packages -r requirements.txt
 ```
 
 ### 2. Get API keys
