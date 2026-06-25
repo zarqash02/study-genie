@@ -7,11 +7,11 @@ pinecone==5.0.1
 transformers==4.44.2
 sentence-transformers
 huggingface_hub>=0.34.0
-# pymupdf==1.24.10
+pymupdf==1.24.10
 python-dotenv==1.0.1
 requests==2.32.3
-# pydantic==2.9.2
-# numpy==1.26.4
+pydantic==2.9.2
+numpy==1.26.4
 torch
 sentence-transformers==2.7.0
 dotenv
