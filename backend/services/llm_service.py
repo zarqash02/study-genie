@@ -6,10 +6,10 @@ from backend.config import config
 
 # Try Groq first (fast, clean JSON), fall back to HF providers
 HF_CHAIN = [
-    ("together",  "mistralai/Mixtral-8x7B-Instruct-v0.1"),
-    ("together",  "Qwen/Qwen2.5-7B-Instruct-Turbo"),
-    ("together",  "deepseek-ai/DeepSeek-V3"),
-    ("together",  "deepseek-ai/DeepSeek-R1"),
+    ("auto", "openai/gpt-oss-120b"),
+    ("auto", "zai-org/GLM-5.3"),
+    ("auto", "deepseek-ai/DeepSeek-V4.1-Flash-1017"),
+    ("auto", "Qwen/Qwen3.5-9B"),
 ]
 
 _groq_client = None
