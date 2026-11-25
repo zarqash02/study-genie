@@ -1,24 +1,6 @@
----
-title: Study Genie
-emoji: 📘
-colorFrom: indigo
-colorTo: blue
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
-short_description: AI study assistant with RAG over your own PDFs
-tags:
-  - rag
-  - study
-  - notebooklm
-  - pinecone
-  - huggingface
-  - fastapi
-  - streamlit
----
-
 # 📘 Study Genie
+
+**Live demo:** [Try Study Genie on Hugging Face Spaces](https://huggingface.co/spaces/zarqash/FYP)
 
 **Your Intelligent Learning Companion** — a NotebookLM-style study assistant that grounds every answer in your own uploaded materials.
 
